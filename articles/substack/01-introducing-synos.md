@@ -1,13 +1,7 @@
 # Introducing SynOS: The AI-Enhanced Cybersecurity Operating System
 
-**Author:** Ty Limoges
-**Estimated Reading Time:** 8 minutes
-**Target Audience:** Security professionals, recruiters, tech enthusiasts
-**Call to Action:** Follow development, download ISO (when ready), join community
+**Author:** Ty Limoges, Lead Developer of Syn_OS
 
----
-
-## The Hook
 
 Imagine a Linux distribution that doesn't just come with security tools—it understands them. One that doesn't just run your commands—it anticipates your needs. One that doesn't just boot—it thinks.
 
