@@ -4,30 +4,30 @@
 [![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/TLimoges33/synos-public-docs/releases)
 [![Status](https://img.shields.io/badge/status-production-green.svg)](https://github.com/TLimoges33/synos-public-docs)
 
-> **A next-generation security-focused Linux distribution with AI-powered kernel enhancements**
+> **A next-generation security-focused Linux distribution with AI/ML-powered kernel enhancements**
 
-[🚀 Get Started](#quick-start) | [📖 Documentation](docs/) | [💬 Discussions](https://github.com/TLimoges33/synos-public-docs/discussions) | [📰 Substack](articles/substack/01-introducing-synos.md)
+[🚀 Get Started](#quick-start) | [📖 Documentation](docs/) | [💬 Discussions](https://github.com/TLimoges33/synos-public-docs/discussions) 
 
 ---
 
-## ✨ What is SynOS?
+##  What is Syn_OS?
 
-SynOS is a Debian-based cybersecurity operating system that goes beyond traditional security distributions by integrating AI at the kernel level.
+Syn(aptic)OS is a Debian-based cybersecurity operating system that goes beyond traditional security distributions by integrating AI at the kernel level.
 
 ### Key Features
 
-- 🧠 **AI-Enhanced Kernel** - Custom Rust kernel with neural network integration
-- 🛡️ **550+ Security Tools** - Curated collection from Kali, ParrotOS, BlackArch
-- 🤖 **ALFRED AI Assistant** - LLM-powered CLI assistant with RAG capabilities
-- 📊 **Data Lake Platform** - PostgreSQL + TimescaleDB + MinIO for analytics
-- 🎯 **7 TUI Applications** - Professional terminal interfaces
-- 🔄 **Multiboot Support** - Stable + Experimental kernels
+-  **AI-Enhanced Kernel** - Custom Rust kernel with neural network integration
+-  **550+ Security Tools** - Curated collection from Kali, ParrotOS, BlackArch
+-  **ALFRED AI Assistant** - LLM-powered CLI assistant with RAG capabilities
+-  **Data Lake Platform** - PostgreSQL + TimescaleDB + MinIO for analytics
+-  **7 TUI Applications** - Professional terminal interfaces
+-  **Multiboot Support** - Stable + Experimental kernels
 
 [See all features →](FEATURES.md)
 
 ---
 
-## 🎯 Who Is This For?
+##  Who Is This For?
 
 - **Penetration Testers** - Pre-configured environment with AI assistance
 - **Security Researchers** - Bleeding-edge tools with custom kernel
@@ -37,7 +37,7 @@ SynOS is a Debian-based cybersecurity operating system that goes beyond traditio
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Download
 
@@ -78,7 +78,7 @@ $ synos-dashboard
 
 ---
 
-## 📰 Latest Articles
+##  Latest Articles
 
 - **[Introducing SynOS](articles/substack/01-introducing-synos.md)** - Project overview and vision
 - **Building a Rust Kernel in 2025** - Coming soon
@@ -86,7 +86,7 @@ $ synos-dashboard
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 ### v1.0.2 (January 2025)
 - Custom Rust kernel integration
@@ -107,7 +107,7 @@ $ synos-dashboard
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Here's how to get involved:
 
@@ -129,7 +129,6 @@ We welcome contributions! Here's how to get involved:
 
 Yes, I'm open to opportunities! If you're hiring for kernel development, cybersecurity, AI/ML, or DevOps roles, let's talk.
 
-**This project is my portfolio.**
 
 ---
 
@@ -137,11 +136,11 @@ Yes, I'm open to opportunities! If you're hiring for kernel development, cyberse
 
 - **Documentation:** [CC BY-SA 4.0](LICENSE)
 - **Code Samples:** MIT
-- **Trademarks:** "SynOS" is a trademark of Ty Limoges
+- **Trademarks:** "Syn_OS" is a trademark of Ty Limoges
 
 ---
 
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 Built with love using:
 - Debian 13 (Trixie)
