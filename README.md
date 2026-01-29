@@ -2,8 +2,6 @@
 
 # Syn_OS v10.3.2 - "GRIMOIRE Hardened"
 
-<img src="https://raw.githubusercontent.com/TLimoges33/Syn_OS/main/assets/branding/logos/phoenix/phoenix-512.png" width="300" alt="Syn_OS Phoenix Logo">
-
 ## 🛡️ The World's First AI-Conscious Cybersecurity Operating System
 
 **Production-Grade Security Platform with Integrated AI Training Environment**
