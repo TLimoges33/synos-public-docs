@@ -1,8 +1,8 @@
 <div align="center">
 
-# Syn_OS v10.3.2 - "GRIMOIRE Hardened"
+# Syn_OS v10.3.2 - "GRIMOIRE"
 
-## 🛡️ The World's First AI-Conscious Cybersecurity Operating System
+##  The World's First AI-Conscious Cybersecurity Operating System
 
 **Production-Grade Security Platform with Integrated AI Training Environment**
 
@@ -12,13 +12,11 @@
 [![Labs](https://img.shields.io/badge/GRIMOIRE_Labs-50%2B-purple.svg)](https://github.com/TLimoges33/synos-public-docs/blob/main/FEATURES.md#grimoire-labs)
 [![Tools](https://img.shields.io/badge/Security_Tools-600%2B-red.svg)](https://github.com/TLimoges33/synos-public-docs/blob/main/FEATURES.md#security-tools)
 
-[📥 Download](#download) | [✨ Features](#features) | [🚀 Quick Start](#quick-start) | [📖 Documentation](#documentation) | [💬 Community](#community)
-
 </div>
 
 ---
 
-## 🎯 What is Syn_OS?
+## What is Syn_OS?
 
 **Syn_OS** (Synaptic Operating System) is a **production-grade cybersecurity platform** built on Debian 13 Trixie that bridges the gap between cutting-edge security research and practical penetration testing.
 
@@ -33,9 +31,9 @@ The underscore "_" represents the **synaptic gap** — the space between neurons
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🛡️ Core Security Platform
+###  Core Security Platform
 
 - **600+ Security Tools** — Unified collection from ParrotOS, Kali Linux, and BlackArch
 - **Dual Kernel Architecture** — Production (6.12.57) + Experimental (6.18.2) with Rust support
@@ -44,7 +42,7 @@ The underscore "_" represents the **synaptic gap** — the space between neurons
 - **Zero-Trust Architecture** — PKI-based authentication with behavioral analytics
 - **Post-Quantum Cryptography** — NIST PQC standards (ML-KEM, ML-DSA, SLH-DSA)
 
-### 🤖 ALFRED v5.0 — AI Security Assistant
+### ALFRED v5.0 — AI Security Assistant
 
 - **LLM Integration** — Support for OpenAI, Anthropic, Mistral, local models
 - **RAG Capabilities** — Vector database with ChromaDB for context-aware responses
@@ -52,7 +50,7 @@ The underscore "_" represents the **synaptic gap** — the space between neurons
 - **Security Automation** — Automated reconnaissance, vulnerability scanning, reporting
 - **Voice Control** — Hands-free operation for OPSEC scenarios
 
-### 🎓 GRIMOIRE Labs — Cybersecurity Training
+### GRIMOIRE Labs — Cybersecurity Training
 
 - **50+ Hands-On Labs** — From beginner (Capture the Flag) to advanced (APT simulation)
 - **Progress Tracking** — XP system with skill trees and achievements
@@ -60,7 +58,7 @@ The underscore "_" represents the **synaptic gap** — the space between neurons
 - **Real-World Scenarios** — Based on actual CVEs and threat intelligence
 - **Docker Integration** — Isolated lab environments with automatic provisioning
 
-### 🚀 Developer-Friendly
+###  Developer-Friendly
 
 - **1.9M+ Lines of Code** — 107 Rust crates, comprehensive Python/C integration
 - **Modular Architecture** — Clean separation between core, services, and applications
@@ -70,9 +68,9 @@ The underscore "_" represents the **synaptic gap** — the space between neurons
 
 ---
 
-## 📥 Download
+## Download
 
-### Latest Release: v10.3.2 "GRIMOIRE Hardened" (January 2026)
+### Latest Release: v10.3.2 "GRIMOIRE Hardened" for Development Team Use Only (January 2026), Public Beta released Jan 31st (hopefully)
 
 **System Requirements:**
 - **RAM:** 8GB minimum, 16GB recommended
@@ -84,85 +82,14 @@ The underscore "_" represents the **synaptic gap** — the space between neurons
 
 | Edition | Size | Use Case | Link |
 |---------|------|----------|------|
-| **Full ISO** | ~4.5GB | Complete platform with all tools | [Download](https://github.com/TLimoges33/Syn_OS/releases) |
-| **Minimal ISO** | ~2.0GB | Core system, download tools as needed | [Download](https://github.com/TLimoges33/Syn_OS/releases) |
-| **VM Image** | ~6.0GB | Pre-configured VMware/VirtualBox | [Download](https://github.com/TLimoges33/Syn_OS/releases) |
+| **Full ISO** | ~14.5GB | Complete platform with all tools 
+| **Minimal ISO** | ~2.0GB | Core system, download tools as needed 
+| **VM Image** | ~6.0GB | Pre-configured VMware/VirtualBox 
 
-**Verification:**
-```bash
-# Download checksums
-wget https://github.com/TLimoges33/Syn_OS/releases/download/v10.3.2/SHA256SUMS
-wget https://github.com/TLimoges33/Syn_OS/releases/download/v10.3.2/SHA256SUMS.sig
-
-# Verify integrity
-sha256sum -c SHA256SUMS 2>&1 | grep OK
-
-# Verify signature (optional)
-gpg --verify SHA256SUMS.sig SHA256SUMS
-```
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Boot from ISO
-
-```bash
-# Write ISO to USB (Linux)
-sudo dd if=synos-v10.3.2.iso of=/dev/sdX bs=4M status=progress oflag=sync
-
-# Or use Etcher/Rufus on Windows
-```
-
-### 2. Installation
-
-1. Boot from USB/DVD
-2. Select "Install Syn_OS" from boot menu
-3. Follow Calamares installer (supports 10 desktop environments)
-4. Choose security profile: Beginner | Professional | Hardened
-5. Wait ~15 minutes for installation
-6. Reboot and enjoy!
-
-### 3. First Steps
-
-```bash
-# Initialize ALFRED AI assistant
-alfred-setup --profile security
-
-# Run system diagnostic
-synos-diagnostic --full
-
-# Start GRIMOIRE lab environment
-grimoire-ctl start
-
-# Launch first lab
-grimoire-lab start 001-intro-recon
-```
-
----
-
-## 📖 Documentation
-
-### User Guides
-- [Installation Guide](articles/installation-guide.md) — Detailed installation instructions
-- [Getting Started](articles/getting-started.md) — First steps with Syn_OS
-- [ALFRED Tutorial](articles/alfred-tutorial.md) — Using the AI assistant
-- [GRIMOIRE Labs Guide](articles/grimoire-guide.md) — Hands-on training platform
-
-### Technical Documentation
-- [Architecture Overview](ARCHITECTURE.md) — System design and components
-- [Feature Reference](FEATURES.md) — Comprehensive feature list
-- [Security Features](SECURITY.md) — Security architecture and hardening
-- [API Reference](API.md) — Developer APIs and integration
-
-### Development
-- [Contributing Guidelines](CONTRIBUTING.md) — How to contribute
-- [Development Setup](articles/dev-setup.md) — Build environment configuration
-- [Roadmap](ROADMAP.md) — Future plans and milestones
-
----
-
-## 🎯 Use Cases
+##  Use Cases
 
 ### 🎓 **Learning & Certification**
 Perfect for students preparing for OSCP, CEH, GPEN, or CompTIA Security+. GRIMOIRE labs provide hands-on practice with real-world scenarios.
@@ -181,7 +108,7 @@ Optimized for Capture the Flag events with quick tool access, automated note-tak
 
 ---
 
-## 🏆 Why Choose Syn_OS?
+##  Why Choose Syn_OS?
 
 | Feature | Kali Linux | ParrotOS | Syn_OS |
 |---------|-----------|----------|--------|
@@ -199,11 +126,10 @@ Optimized for Capture the Flag events with quick tool access, automated note-tak
 
 ### Get Involved
 
-- 🐛 **Report Bugs:** [GitHub Issues](https://github.com/TLimoges33/Syn_OS/issues)
-- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/TLimoges33/Syn_OS/discussions)
-- 📧 **Contact:** synos@tlimoges.dev
-- 🐦 **Twitter:** [@TLimoges33](https://twitter.com/TLimoges33)
-- 📝 **Blog:** [Substack](https://synos.substack.com)
+- **Report Bugs:** [GitHub Issues](https://github.com/TLimoges33/Syn_OS/issues)
+- **Feature Requests:** [GitHub Discussions](https://github.com/TLimoges33/Syn_OS/discussions)
+- **Contact:** mogeem33@gmail.com
+- **Blog:** [Substack](https://shelldiablo33.substack.com)
 
 ### Contributing
 
@@ -229,16 +155,16 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - **600+ Tools** — Industry-standard security arsenal
 
 **Active Development:**
-- ✅ Production-ready v10.3.2 release
-- 🚀 Monthly security updates
-- 📈 Growing community
-- 🎯 OSCP/CEH-aligned training content
+- Production-ready v10.3.2 release
+- Monthly security updates
+- Growing community
+- OSCP/CEH-aligned training content
 
 ---
 
-## 📜 License
+##  License
 
-Syn_OS is released under the **MIT License**. See [LICENSE](LICENSE) for details.
+Syn_OS is released under the **MIT License**.
 
 **Third-Party Components:**
 - Security tools retain their original licenses (GPLv2, GPLv3, MIT, etc.)
@@ -247,7 +173,7 @@ Syn_OS is released under the **MIT License**. See [LICENSE](LICENSE) for details
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Syn_OS builds upon the incredible work of:
 - **Debian Project** — Rock-solid foundation
@@ -259,7 +185,7 @@ Syn_OS builds upon the incredible work of:
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 Syn_OS is designed for **authorized security testing and education only**. Users are responsible for ensuring compliance with all applicable laws and regulations. Unauthorized access to computer systems is illegal.
 
